@@ -1,10 +1,3 @@
-// ==========================================================
-// C3_CascadePID_Mixer_NoOffset_Fixed.ino
-// Đã sửa: Roll = Roll ICM, Pitch = Pitch ICM (không hoán đổi)
-// Cải tiến Yaw: bias gyro Z được in ra, số mẫu calibrate tăng,
-// thêm bộ lọc LPF cho gyro Z trước khi tích phân.
-// ==========================================================
-
 #include <esp_now.h>
 #include <WiFi.h>
 #include <SPI.h>
@@ -13,7 +6,6 @@
 #include "ICM42607_SPI.h"
 
 // ==========================================================
-// MOTOR FRAME X - ESP32-C3 SUPER MINI
 // ==========================================================
 
 // ================= ESC PINS =================
